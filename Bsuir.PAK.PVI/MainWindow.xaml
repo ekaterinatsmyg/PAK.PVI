@@ -1,0 +1,18 @@
+﻿<Window x:Class="Bsuir.PAK.PVI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bsuir.PAK.PVI"
+        mc:Ignorable="d"
+        Title="Лабораторная работа ПВИ" Height="638" Width="1102.5" Background="#FFF0F0F0">
+
+    <Grid x:Name="LayoutMain" Visibility="Visible" d:IsHidden="False" Margin="10,10,2,8">
+        <TextBlock Margin="200,24,179.52,0"  TextAlignment="Center" FontSize="18.667" Height="32" d:LayoutOverrides="Width, Height" VerticalAlignment="Top" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Министерство образования РБ"/></TextBlock>
+        <TextBlock Height="96" Margin="120,72,104,0"  VerticalAlignment="Top" TextAlignment="Center" FontSize="18.667" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Учреждение образования"/><LineBreak/><Run Language="ru-ru" Text="«"/><Run Language="ru-ru" Text="Белорусский государственный университет "/><LineBreak/><Run Language="ru-ru" Text="информатики и радиоэлектроники"/><Run Language="ru-ru" Text="» "/></TextBlock>
+        <TextBlock Margin="120,192,104,0" TextAlignment="Center" FontSize="18.667" FontFamily="Times New Roman" Height="48" VerticalAlignment="Top"><Run Language="ru-ru" Text="Кафедра инженерной психологии и эргономики"/></TextBlock>
+        <TextBlock Margin="59,0,43,176"  TextAlignment="Center" FontSize="18.667" FontFamily="Times New Roman" Height="104" VerticalAlignment="Bottom"><Run Text="Лабораторная работа"/><LineBreak/><Run FontWeight="Bold" Text="«"/><Run FontWeight="Bold" FontStyle="Italic" Text="И"/><Run FontWeight="Bold" FontStyle="Italic" FontSize="18.6666666666667" Text="сследования факторов сохранения информации в памяти"/><Run FontWeight="Bold" Text="»"/></TextBlock>
+        <TextBlock Margin="200,0,104,55"  TextAlignment="Center" FontSize="18.667" FontFamily="Times New Roman" Height="36" VerticalAlignment="Bottom" Text="Минск 2017"/>
+        <Button x:Name="layoutMain_nextButton" Content="Далее" HorizontalAlignment="Right" Height="40" Margin="0,507,10,0" VerticalAlignment="Top" Width="116" Click="layoutMain_nextButton_Click" FontSize="16" Background="#FF3F766C" Foreground="White" />
+    </Grid>
+</Window>

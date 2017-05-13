@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29px" height="55px" viewBox="0 0 50 94" enable-background="new 0 0 50 94" xml:space="preserve">
+	<style>
+		.filled-color {
+			fill: #4a83ca;
+		}
+	</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0.1" y="0" width="49.9" height="94"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_3_" width="50" height="94"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_4_)" d="M44.2,92c0.6,0.6,1.4,1,2.3,1s1.7-0.3,2.3-1c1.3-1.3,1.3-3.4,0-4.6L8,46.6L48.8,5.8
+			c1.3-1.3,1.3-3.4,0-4.6c-1.3-1.3-3.4-1.3-4.6,0L1,44.3c-1.3,1.3-1.3,3.4,0,4.6L44.2,92z" class="filled-color"/>
+
+	</g>
+</g>
+</svg>

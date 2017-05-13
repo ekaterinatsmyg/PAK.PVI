@@ -1,0 +1,34 @@
+body {
+    background-color: #fff;
+}
+
+pak-main {
+    .state-block {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        overflow: auto; 
+        a {
+            width: 200px;
+            height: 100px;
+            margin: 0 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            line-height: 100px;
+            &:hover {
+                transition: background-color linear .3s;
+                border-color: #979a9e;
+                background-color: #eaeaea;
+            }
+        }
+    }
+}

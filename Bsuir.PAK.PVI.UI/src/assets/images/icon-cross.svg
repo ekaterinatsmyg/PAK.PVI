@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="26px" height="27px" viewBox="0 0 26 27" enable-background="new 0 0 26 27" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0.1" y="0.4" width="25.9" height="26"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<defs>
+			<rect id="SVGID_3_" width="26" height="27"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<polygon clip-path="url(#SVGID_4_)" fill-rule="evenodd" clip-rule="evenodd" points="25.6,1.9 24.1,0.4 12.8,11.7 1.5,0.4 0,1.9 
+			11.3,13.2 0,24.5 1.5,26 12.8,14.7 24.1,26 25.6,24.5 14.3,13.2 		"/>
+	</g>
+</g>
+</svg>

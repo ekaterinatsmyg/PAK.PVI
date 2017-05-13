@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" x="0" y="0">
+    <symbol id="progress_line" viewBox="0 0 50 50">
+        <circle r="23" cx="25" cy="25" fill="transparent" stroke-dasharray="144.5133" stroke-dashoffset="72.25663103256524"></circle>
+    </symbol>
+</svg>

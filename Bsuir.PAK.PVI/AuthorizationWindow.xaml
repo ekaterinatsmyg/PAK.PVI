@@ -1,0 +1,20 @@
+﻿<Window x:Class="Bsuir.PAK.PVI.AuthorizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bsuir.PAK.PVI"
+        mc:Ignorable="d"
+        Title="Лабораторная работа ПВИ" Height="300" Width="300">
+    <Grid Background="#FFF0F0F0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="_authorizationButton" Content="Далее" HorizontalAlignment="Left" Margin="197,230,0,0" VerticalAlignment="Top" Width="85" Click="_choosingExperimentButton_Click" Height="29" FontSize="16" Background="#FF3F766C" Foreground="WhiteSmoke"/>
+        <Label x:Name="_choosingUserLabel" Content="Выберите роль пользователя:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="282" Height="41" FontSize="16"/>
+        <RadioButton x:Name="_teacher" Content="Преподаватель" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="138" IsChecked="False" FontSize="16" Height="20"/>
+        <RadioButton x:Name="_student" Content="Студент" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="138" IsChecked="True" FontSize="16" Height="20"/>
+
+    </Grid>
+</Window>
