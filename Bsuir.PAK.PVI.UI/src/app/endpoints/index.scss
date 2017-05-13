@@ -1,9 +1,12 @@
 body {
-    background-color: #fff;
+    background-color: rgb(232, 232, 232);
 }
 
 pak-main {
     .state-block {
+        background-repeat: no-repeat;
+        background-image: url("/assets/images/gif_3.gif");
+        background-position: center top;
         width: 100%;
         height: 100%;
         position: fixed;
@@ -21,13 +24,15 @@ pak-main {
             border-radius: 5px;
             text-decoration: none;
             font-size: 16px;
-            color: black;
+            color: $pr-color;
             text-align: center;
             line-height: 100px;
+            background-color: #f0f0f0;
             &:hover {
                 transition: background-color linear .3s;
                 border-color: #979a9e;
-                background-color: #eaeaea;
+                color: #f0f0f0;
+                background-color: $pr-color;
             }
         }
     }

@@ -1,0 +1,55 @@
+side-student {
+  .arrow {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    &.arrow-close {
+      transform: rotate(180deg);
+      line-height: 14px;
+    }
+  }
+  .setting-btn {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: transparent;
+  }
+  .experiment-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-size: 16px;
+    .experiment {
+      width: 350px;
+      .experiment-block {
+        height: 50px;
+        line-height: 40px;
+        border: 1px solid $pr-color;
+        background-color: #f0f0f0;
+        color: $pr-color;
+        cursor: default;
+        margin: 5px 0;
+        padding: 5px;
+        padding-left: 10px;
+        border-radius: 4px;
+        .setting-btn {
+          float: right;
+        }
+      }
+      .test-wrap {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+      }
+    }
+  }
+}

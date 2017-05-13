@@ -1,1 +1,21 @@
-studentasdasdasdasd
+<div class="experiment-wrap">
+    <div class="experiment" ng-repeat="experiment in $ctrl.experiments">
+        <div class="experiment-block">
+            <button class="arrow"
+                    ng-click="experiment.isOpen = !experiment.isOpen"
+                    ng-class="{'arrow-close': experiment.isOpen}">
+                <img src="assets/images/down-arrow.svg" />
+            </button>
+            {{experiment.name}}
+            <button class="setting-btn">
+                <img src="assets/images/settings.svg" />
+            </button>
+        </div>
+        <div class="test-wrap" ng-show="experiment.isOpen">
+            <div class="test" ng-repeat="test in experiment.tests">
+                <div class="experiment-block">{{test.name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
