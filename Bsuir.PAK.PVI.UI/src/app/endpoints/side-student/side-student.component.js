@@ -1,7 +1,10 @@
 class SideStudentController {
-	constructor() {
-		'ngInject'
+	constructor($uibModal) {
+		'ngInject';
 
+		this.$uibModal = $uibModal;
+		console.log($uibModal)
+		// console.log(Modal)
 		this.experiments = [
             {
                 name: 'Эксперимент 1',
@@ -20,6 +23,18 @@ class SideStudentController {
             }
         ];
 	}
+
+	openExperimentSettings() {
+	    let instance = this.$uibModal.open({
+            component: 'experimentModalSettings'
+        });
+
+	    instance.result
+            .then(result => console.log(result))
+        // this.Modal.open({
+        //     templateUrl: './app/endpoints/side-student/experiment-modal-settings/experiment-modal-settings.html',
+        // }).then((result) => console.log('save'));
+    }
 }
 
 export default {

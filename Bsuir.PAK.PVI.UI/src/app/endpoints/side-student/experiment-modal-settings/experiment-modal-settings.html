@@ -1,0 +1,18 @@
+<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">Experiment settings</h3>
+</div>
+<div class="modal-body" id="modal-body">
+    <div uib-timepicker
+         ng-model="$ctrl.time"
+         hour-step="$ctrl.timeSettings.hstep"
+         minute-step="$ctrl.timeSettings.mstep"
+         show-seconds="true"
+         show-meridian="ismeridian"
+    >
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">Save</button>
+    <button class="btn btn-warning" type="button" ng-click="$ctrl.close()">Close</button>
+</div>
