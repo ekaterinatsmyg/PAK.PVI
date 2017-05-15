@@ -1,5 +1,5 @@
 class SideStudentController {
-	constructor($uibModal) {
+	constructor($uibModal, $interval, $timeout) {
 		'ngInject';
 
 		this.$uibModal = $uibModal;
@@ -27,9 +27,9 @@ class SideStudentController {
 
 		this.test = {
 		    stymulus: [
-		        'as as asasd fasfasf',
-                'asf asf asf asf',
-                'asf gas asf asgasf',
+		        'ряд 1',
+                'ряд 2',
+                'ряд 3',
                 'гамогенный'
             ]
         };

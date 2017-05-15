@@ -1,9 +1,22 @@
 <div class="execute-test">
-    <div class="stymul-show" ng-if="$ctrl.isShow">{{$ctrl.test.stymulus[$ctrl.currentStymulId]}}</div>
-    <div class="stymul-input" ng-if="!$ctrl.isShow">
+    <div class="stymul-show" ng-if="$ctrl.isShowStymul">{{$ctrl.test.stymulus[$ctrl.currentStymulId]}}</div>
+    <div class="stymul-input" ng-if="$ctrl.isShowInput">
         Введите стимул
         <input ng-model="$ctrl.input" />
         <button class="btn btn-primary" ng-click="$ctrl.applyResult()">Принять</button>
     </div>
+    <div class="stymul-multiply" ng-if="$ctrl.isShowMultiply">
+        {{$ctrl.multiplyNumberFirst}} * {{$ctrl.multiplyNumberSecond}} =
+        <input ng-model="$ctrl.multiplyResult">
+        <button class="btn btn-primary" ng-click="$ctrl.confirmMultipy()">Ок</button>
+        <span ng-bind="$ctrl.multiplyError"></span>
+    </div>
+    <div class="stymul-fake" ng-if="$ctrl.isShowFake">
+        {{$ctrl.test.stymulus[3]}}
+    </div>
 </div>
+
+
+
+
 
