@@ -1,0 +1,9 @@
+<div class="execute-test">
+    <div class="stymul-show" ng-if="$ctrl.isShow">{{$ctrl.test.stymulus[$ctrl.currentStymulId]}}</div>
+    <div class="stymul-input" ng-if="!$ctrl.isShow">
+        Введите стимул
+        <input ng-model="$ctrl.input" />
+        <button class="btn btn-primary" ng-click="$ctrl.applyResult()">Принять</button>
+    </div>
+</div>
+

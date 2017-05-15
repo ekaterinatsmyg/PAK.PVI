@@ -52,4 +52,22 @@ side-student {
       }
     }
   }
+  .execute-test {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    .stymul-show {
+      font-size: 20px;
+    }
+    .stymul-input {
+      font-size: 16px;
+    }
+  }
 }

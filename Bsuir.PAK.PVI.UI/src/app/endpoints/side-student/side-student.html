@@ -1,4 +1,4 @@
-<div class="experiment-wrap">
+<div class="experiment-wrap" ng-show="!$ctrl.runningTest">
     <div class="experiment" ng-repeat="experiment in $ctrl.experiments">
         <div class="experiment-block">
             <button class="arrow"
@@ -13,9 +13,24 @@
         </div>
         <div class="test-wrap" ng-show="experiment.isOpen">
             <div class="test" ng-repeat="test in experiment.tests">
-                <div class="experiment-block">{{test.name}}</div>
+                <div class="experiment-block">
+                    {{test.name}}
+                    <button class="setting-btn" ng-click="$ctrl.runTest(test)">
+                        <img src="assets/images/round-play-button.svg" />
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+<execute-test ng-if="$ctrl.runningTest"
+              test="$ctrl.runningTest"
+              time-delay="$ctrl.testTimeDelay"
+              on-finish-test="$ctrl.finishTest(results)"
+>
+
+</execute-test>
 

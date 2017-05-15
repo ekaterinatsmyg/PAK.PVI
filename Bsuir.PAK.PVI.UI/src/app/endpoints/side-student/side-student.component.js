@@ -3,8 +3,10 @@ class SideStudentController {
 		'ngInject';
 
 		this.$uibModal = $uibModal;
-		console.log($uibModal)
-		// console.log(Modal)
+		this.timeBetweenTest = null;
+
+		this.runningTest = null;
+
 		this.experiments = [
             {
                 name: 'Эксперимент 1',
@@ -22,6 +24,15 @@ class SideStudentController {
                 ]
             }
         ];
+
+		this.test = {
+		    stymulus: [
+		        'as as asasd fasfasf',
+                'asf asf asf asf',
+                'asf gas asf asgasf',
+                'гамогенный'
+            ]
+        };
 	}
 
 	openExperimentSettings() {
@@ -30,10 +41,17 @@ class SideStudentController {
         });
 
 	    instance.result
-            .then(result => console.log(result))
-        // this.Modal.open({
-        //     templateUrl: './app/endpoints/side-student/experiment-modal-settings/experiment-modal-settings.html',
-        // }).then((result) => console.log('save'));
+            .then((time) => this.timeBetweenTest = time);
+    }
+
+    runTest(test) {
+	    console.log(1)
+	    this.runningTest = this.test;
+    }
+
+    finishTest(results) {
+	    this.runningTest = null;
+	    console.log(results);
     }
 }
 
